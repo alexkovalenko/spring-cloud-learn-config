@@ -3,12 +3,3 @@ spring:
     name: rating-service
 server:
   port: 8084
-
-eureka:
-  client:
-    region: default
-    registryFetchIntervalSeconds: 5
-    serviceUrl:
-      defaultZone: http://localhost:8082/eureka/
-    healthcheck:
-      enabled: true
