@@ -3,3 +3,8 @@ spring:
     name: book-service
 server:
   port: 8083
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true

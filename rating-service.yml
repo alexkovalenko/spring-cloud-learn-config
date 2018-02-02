@@ -3,3 +3,8 @@ spring:
     name: rating-service
 server:
   port: 8084
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true

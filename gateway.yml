@@ -34,3 +34,8 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 600000
+
+eureka:
+  client:
+    healthcheck:
+      enabled: true
